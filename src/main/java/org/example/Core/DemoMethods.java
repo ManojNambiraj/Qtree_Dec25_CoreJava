@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Core;
 
 public class DemoMethods {
     public void myMethod() {
