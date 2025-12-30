@@ -2,10 +2,15 @@ package org.example.OOPs;
 
 public class MainModi {
     static void main(String[] args) {
-        Modifiers m1 = new Modifiers();
+        Encapsule en = new Encapsule();
 
-        System.out.println(m1.a);
+        en.setName("Kavi");
+        System.out.println(en.getName());
 
-        m1.demo();
+        en.setAge(20);
+        System.out.println(en.getAge());
+
+        en.setDept("IT");
+        System.out.println(en.getDept());
     }
 }
